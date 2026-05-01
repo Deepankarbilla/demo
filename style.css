@@ -30,8 +30,10 @@ body {
 }
 
 .logo {
-    width: 55px;
-    margin-bottom: 8px;
+    width: 180px;     /* increase size */
+    height: auto;     /* keep proportions */
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .title-main {
